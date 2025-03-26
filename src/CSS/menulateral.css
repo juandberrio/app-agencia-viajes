@@ -1,19 +1,35 @@
 .panel-control-aside {
     width: 100%;
-    height: 15%;
-    background-color: transparent;
+    height: 200px;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
     display: flex;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    border-color: 1px solid black;
+    justify-content: center; 
   }
-
-.botones {
+  
+  nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: 60%;
-    margin-top: 10px;
+    flex-direction: row; 
+    gap: 15px; 
   }
+  
+  .botones button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+  }
+  
+  .botones button:hover {
+    background: linear-gradient(45deg, #feb47b, #ff7e5f);
+    transform: scale(1.05);
+  }
+  
+  .botones button:active {
+    transform: scale(0.98);
+  }ransform: scale(0.98);

@@ -4,13 +4,13 @@ function MenuLateral() {
     <aside className="panel-control-aside">
       <nav>
         <div className="botones">
-          <button>gbhbsjdbfd</button>
+          <button>inicio de seccion</button>
         </div>
         <div className="botones">
-          <button>gbhbsjdbfd</button>
+          <button>registrate</button>
         </div>
         <div className="botones">
-          <button>gbhbsjdbfd</button>
+          <button>contactanos</button>
         </div>
       </nav>
     </aside>
