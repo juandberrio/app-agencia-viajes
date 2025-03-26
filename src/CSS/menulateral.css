@@ -1,0 +1,19 @@
+.panel-control-aside {
+    width: 100%;
+    height: 15%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    border-color: 1px solid black;
+  }
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 60%;
+    margin-top: 10px;
+  }
