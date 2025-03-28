@@ -23,31 +23,6 @@ body {
   flex-direction: column;
 }
 
-.panel-control-aside div {
-  width: 270px;
-  height: 270px;
-  border-radius: 50%;
-  display: flex;
-  /* justify-content: center; */
-  align-items: center;
-}
-
-.panel-control-aside div img {
-  width: 240px;
-  height: 240px;
-  border-radius: 50%;
-  border: solid 1px black;
-
-}
-
-.panel-control-aside nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-  height: 60%;
-}
-
 .panel-control-aside nav ul {
   display: flex;
   justify-content: space-around;
